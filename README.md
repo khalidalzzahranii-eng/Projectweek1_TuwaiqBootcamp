@@ -6,35 +6,15 @@ where we explored, cleaned, and visualized Adidas sales data, and built an inter
 
 ---
 
-## 📂 Repository Structure
-- **notebooks/** → Jupyter/Colab notebooks for analysis (`Adidas_Sales_EDA.ipynb`)
-- **app/** → Streamlit dashboard (`dashboard.py`)
-- **data/** → datasets (raw and cleaned CSVs)
-- **assets/** → images, logos, and dashboard screenshots
-
----
-
-## ✅ Work Completed
-- Performed **Exploratory Data Analysis (EDA)** using **Google Colab**.  
-- Data cleaning and preparation of a refined dataset.  
-- Built an interactive **Streamlit dashboard**.  
-- Designed visualizations using:
-  - **Pandas** (data handling & analysis).  
-  - **Matplotlib** (basic plots & charts).  
-  - **Plotly** (interactive visualizations).  
-
----
-
 ## 📊 Dashboard Preview
-Here are some screenshots of the Streamlit dashboard:
 
-![Dashboard Screenshot 1](assets/adidas.png)
+<p align="center">
+  <img src="assets/dashboard_1.png" width="45%"/>
+  <img src="assets/dashboard_2.png" width="45%"/>
+</p>
 
-*(You can add more images by uploading them to the `assets/` folder and referencing them here.)*
+<p align="center">
+  <img src="assets/dashboard_3.png" width="45%"/>
+  <img src="assets/dashboard_4.png" width="45%"/>
+</p>
 
----
-
-## 🚀 How to Run the Dashboard
-```bash
-pip install -r requirements.txt
-streamlit run app/dashboard.py
